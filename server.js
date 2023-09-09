@@ -19,3 +19,4 @@ const supabase = createClient('https://sinfgqxrfvvaxurdedzt.supabase.co','eyJhbG
 // app.listen(3000,()=>{
 //     console.log('Server starting..')
 // })
+module.exports = supabase;

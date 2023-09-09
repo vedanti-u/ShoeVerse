@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 3000
-const mainjs = require("./routes/main.js")
+const mainjs = require("./routes/main")
 
 var bodyParser = require("body-parser");
 app.use(
